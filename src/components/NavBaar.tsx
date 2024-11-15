@@ -19,10 +19,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Dashboard', href: '#', key: 'dashboard' },
-  { name: 'Team', href: '#', key: 'team' },
-  { name: 'Projects', href: '#', key: 'projects' },
-  { name: 'Calendar', href: '#', key: 'calendar' },
+  { name: 'Explore', href: '#', key: 'dashboard' },
+  { name: 'Search', href: '#', key: 'team' },
+  { name: 'Hotels', href: '#', key: 'projects' },
+  { name: 'Offers', href: '#', key: 'calendar' },
 ];
 
 function classNames(...classes: (string | boolean | undefined)[]): string {
@@ -57,7 +57,7 @@ const NavBarr: React.FC = () => {
                     className={classNames(
                       activeItem === item.key
                         ? 'bg-gray-900 text-white'
-                        : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        : 'text-gray-600 hover:bg-gray-700 hover:text-white',
                       'rounded-md px-3 py-2 text-sm font-medium'
                     )}
                   >

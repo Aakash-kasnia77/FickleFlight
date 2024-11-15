@@ -7,6 +7,7 @@ import Dropdown from './components/Dropdown.jsx';
 // import NavBar from './components/Navbar.jsx';
 import NavBarr from './components/NavBaar.tsx';
 import Heading from './components/Heading.tsx';
+import RecentSearches from './components/RecentSearches.tsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* <NavBar/> */}
       <NavBarr/>
       <Heading/>
+      <RecentSearches/>
     </div>
   );
 }

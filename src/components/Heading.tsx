@@ -18,9 +18,9 @@ const Heading: React.FC<HeadingProps> = ({ title, count }) => {
         <h1 className="text-6xl font-bold text-white mt-8" >Let's explore & travel the world</h1>
         <h1 className="text-2xl font-bold text-white mt-2" >Find the best destinations and the most popular stays!</h1>
 
-        <div className="flex flex-col bg-white items-center w-3/4 border-2 p-2 mt-8 pb-4">
+        <div className="flex flex-col bg-white items-center w-3/4 border-2 p-4 mt-8 pb-6 rounded-lg">
           <div className="flex justify-between w-full">
-            <p className="text-lg ml-4">SEARCH FLIGHTS</p>
+            <p className="text-lg ml-4 mt-1 font-semibold">SEARCH FLIGHTS</p>
             <div className="flex space-x-4 mr-4">
               <label className="flex items-center space-x-2">
                 <input type="radio" name="tripType" value="Return" className="h-5 w-5 text-blue-600" />
@@ -37,7 +37,7 @@ const Heading: React.FC<HeadingProps> = ({ title, count }) => {
             <div className="relative  w-full ">
               <label
                 htmlFor="departure"
-                className="absolute text-xs text-gray-1000 left-3 top-2 transform -translate-y-1/2 bg-white px-1"
+                className="absolute text-xs text-black left-3 top-2 transform -translate-y-1/2 bg-white px-1"
               >
                 Departure
               </label>
@@ -77,7 +77,7 @@ const Heading: React.FC<HeadingProps> = ({ title, count }) => {
               />
             </div>
               <button
-               className="bg-orange-500 mt-2 rounded-lg h-10 w-1/2 hover:bg-orange-600 hover:text-white"
+               className="bg-orange-500 mt-2 rounded-lg  w-1/2 hover:bg-orange-600 hover:text-white"
                >Search Flights</button>
 
           </div>
